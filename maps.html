@@ -11,7 +11,7 @@
 	
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
 	
-	<h1>Tema 1 IOC - Hai la drum!</h1>    
+	<h1>Let's go!</h1>    
   </head>
   
   <body onload="initialize()">
@@ -20,22 +20,22 @@
 	
 	<form>
 		<div class="sidebar">
-			<p>Scrieti numele markerului si apoi dati click pe un marker pentru a-i seta numele ales.</p>
+			<p>Write the name of the marker and then click on the marker to set its name.</p>
 			<input id="inputMarker" type="text" value="MarkerName">
 			
-			<p>Sterge markere.</p>
-			<button onclick="deleteRoad();return false;">Sterge Markere</button>
+			<p>Delete markers.</p>
+			<button onclick="deleteRoad();return false;">Delete markers</button>
 			
-			<p>Dupa ce v-ati descris drumul cu ajutorul markerelor apasati pe butonul Deseneaza Drum.</p>
-			<button onclick="createRoad();return false;">Deseneaza Drum</button>
+			<p>After you have decided on your chosen road click on Draw Road.</p>
+			<button onclick="createRoad();return false;">Draw Road</button>
 			
-			<p>Distanta totala: <div id="distanta"></div></p>
+			<p>Total distance: <div id="distanta"></div></p>
 			<input type="button" onclick="computeDistance();" value="Calculeaza"/>
 			
-			<p>Drumul descris pe segmente:</p>	
+			<p>The road on segments:</p>	
 			<div id="directions_panel"></div>
 			
-			<p>Fisierul XML generat:</p>
+			<p>Generated XML file:</p>
 			<input type="button" onclick="XML();" value="Genereaza XML"/>
 			<div id="XML"></div>
 			
